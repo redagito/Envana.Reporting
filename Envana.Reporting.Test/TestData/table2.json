@@ -1,0 +1,52 @@
+{
+  "TableTags": {
+    "@table@": {
+      "HasHeader": false,
+      "HasHeaderTags": false,
+      "Content": [
+        [ "John", "18", "Blue" ],
+        [ "Neils", "28", "Green" ],
+        [ "Abdul", "22", "Black" ],
+        [ "Walter", "19", "White" ],
+        [ "Donald", "32", "Orange" ]
+      ]
+    },
+    "@table_header@": {
+      "HasHeader": true,
+      "HasHeaderTags": false,
+      "Content": [
+        [ "Name", "Age", "Favourite Color" ],
+        [ "John", "18", "Blue" ],
+        [ "Neils", "28", "Green" ],
+        [ "Abdul", "22", "Black" ],
+        [ "Walter", "19", "White" ],
+        [ "Donald", "32", "Orange" ]
+      ]
+    },
+    "@table_header_tags@": {
+      "HasHeader": true,
+      "HasHeaderTags": true,
+      "Content": [
+        [ "@tbl_name@", "@tbl_age@", "@tbl_favcolor@" ],
+        [ "Name", "Age", "Favourite Color" ],
+        [ "John", "18", "Blue" ],
+        [ "Neils", "28", "Green" ],
+        [ "Abdul", "22", "Black" ],
+        [ "Walter", "19", "White" ],
+        [ "Donald", "32", "Orange" ]
+      ]
+    },
+    "@table_tags@": {
+      "HasHeader": false,
+      "HasHeaderTags": true,
+      "Content": [
+        [ "@tbl_name@", "@tbl_age@", "@tbl_favcolor@" ],
+        [ "John", "18", "Blue" ],
+        [ "Neils", "28", "Green" ],
+        [ "Abdul", "22", "Black" ],
+        [ "Walter", "19", "White" ],
+        [ "Donald", "32", "Orange" ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "TextTags": {
+    "@header@": "Header\nSecond line\nThird line",
+    "@body@": "Body\nSecond line\nAnother line\n\nAnother after free line",
+    "@footer@": "Footer\nAnother line"
+  }
+  }

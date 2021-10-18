@@ -1,0 +1,98 @@
+﻿[
+  {
+    "Name": "Text Tags Stresstest",
+    "Description": "Replace text in paragraphs stresstest",
+    "File": "text2",
+    "IsStressTest": true
+  },
+  {
+    "Name": "Table Tags Stresstest Large Data",
+    "Description": "Replace table tags with large data file",
+    "File": "table_stresstest1",
+    "IsStressTest": true
+  },
+  {
+    "Name": "Table Tags Stresstest Many Tags",
+    "Description": "Replace many table tags with small tables",
+    "File": "table_stresstest2",
+    "IsStressTest": true
+  },
+  {
+    "Name": "Text Tags",
+    "Description": "Replace text in paragraphs",
+    "File": "text1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Text Tags Multiline",
+    "Description": "Replace text in paragraphs with multiline text",
+    "File": "text3",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Table Tags",
+    "Description": "Replace stand alone table tag",
+    "File": "table1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Table Tags in Table",
+    "Description": "Replace table tag in preformatted table",
+    "File": "table2",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Table Tags in Table with Header Tags",
+    "Description": "Replace table tag in preformatted table with header tags for column reordering",
+    "File": "table3",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Table Tags with Content from File",
+    "Description": "Replace table tags with table where the table content is loaded froma csv file",
+    "File": "table4",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Table Tag Crash",
+    "Description": "Crash when 2 fields have same table tag in same row",
+    "File": "table_crash1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Text and Table Tags",
+    "Description": "Replace text and table tags",
+    "File": "text_table1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Template Tags with Text",
+    "Description": "Replace a template area with text data",
+    "File": "template_text1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Template Tags with Table",
+    "Description": "Replace a template area with table data",
+    "File": "template_table1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Sample Analysis Report",
+    "Description": "A sample environmental analysis report as could be offered by an analytical laboratory",
+    "File": "report_sample1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Partial Sample Analysis Report",
+    "Description": "Part of an extended report as could be offered by an analystical laboratory",
+    "File": "report_sample2_part1",
+    "IsStressTest": false
+  },
+  {
+    "Name": "Demo Sample",
+    "Description": "A sample for presenting several capabilities",
+    "File": "sample1",
+    "IsStressTest": false
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "TableTags": {
+    "@table@": {
+      "HasHeader": false,
+      "HasHeaderTags": false,
+      "ContentFromFile": "table4_data.csv"
+    }
+  }
+}

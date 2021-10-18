@@ -1,0 +1,24 @@
+{
+  "Templates": [
+    {
+      "StartTag": "@template_start@",
+      "EndTag": "@template_end@",
+      "Contexts": [
+        {
+          "TableTags": {
+            "@table@": {
+              "HasHeader": true,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "ID", "Login", "Mail" ],
+                [ "001", "m.johnson", "johnson@johnson.com" ],
+                [ "002", "s.griffin", "griffin@yahoo.com" ],
+                [ "021", "t.may", "t.may@gmx.at" ]
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

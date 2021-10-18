@@ -1,0 +1,293 @@
+{
+  "TextTags": {
+    "@report_nr@": "D00901",
+    "@order_nr@": "120077",
+
+    "@company_name1@": "Envana GmbH",
+    "@company_name2@": "Laboratory Systems Technologies",
+    "@company_street@": "Donaustadt Strasse 42",
+    "@company_country@": "Austria",
+    "@company_place@": "Vienna",
+    "@company_plz@": "1220",
+
+    "@generation_date@": "25.03.2021"
+
+  },
+  "TableTags": {
+    "@order_info@": {
+      "HasHeader": false,
+      "HasHeaderTags": false,
+      "Content": [
+        [ "Order Description", "" ],
+        [ "Order Date", "01.03.2021" ],
+        [ "Order received date", "05.03.2021" ],
+        [ "Client Name", "Max Mustermann, ClientCompany AG" ],
+        [ "Invoice recipient", "ClientCompany AG" ],
+        [ "Due date", "01.04.2021" ],
+        [ "Subject", "" ]
+      ]
+    },
+    "@results_sample@": {
+      "HasHeader": true,
+      "HasHeaderTags": false,
+      "Content": [
+        [ "Parameter", "Unit", "S00901-01", "S00901-02", "S00901-04" ],
+        [ "Arsenic", "mg/kg DM", "< 0.04", "< 0.0000013333", "-" ],
+        [ "Arsenic", "mg/l", "10.6", "[0.03]", "" ],
+        [ "Benzene", "mg/l", "-", "-", "-" ],
+        [ "Lead", "mg/kg DM", "0.001", "[0.03]", "-" ],
+        [ "Lead", "mg/l", "40", "< 0.2", "-" ],
+        [ "Weighin", "g", "5", "10", "-" ],
+        [ "Weighin", "g", "13", "11.5", "-" ],
+        [ "Weighin", "g", "9", "10", "-" ],
+        [ "Weighin", "g", "14", "12", "-" ],
+        [ "Conductivity", "ys/cm", "-", "-", "-" ],
+        [ "Sum BTEX", "mg/l", "-", "-", "-" ],
+        [ "Toluene", "mg/l", "-", "-", "-" ],
+        [ "Dry matter", "%", "80", "75", "-" ]
+      ]
+    }
+  },
+  "Templates": [
+    {
+      "StartTag": "@samples_start@",
+      "EndTag": "@samples_end@",
+      "Contexts": [
+        {
+          "TextTags": {
+            "@sample_code@": "S00901-01",
+            "@analysis_date@": "11.03.2021",
+            "@analyst_name@": "Wilhelm Haplec"
+          },
+          "TableTags": {
+            "@sample_info@": {
+              "HasHeader": false,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample name", "Badeteich Hirschstetten Südufer" ],
+                [ "Sample description", "" ],
+                [ "Sampling date", "08.03.2021" ],
+                [ "Sampling plan", "" ],
+                [ "Due date", "10.03.2021" ],
+                [ "Product reference", "Surface water" ],
+                [ "Storage (months)", "6" ],
+                [ "Disposed date", "" ],
+                [ "Sampling point", "" ]
+              ]
+            },
+            "@sample_parameters@": {
+              "HasHeader": true,
+              "HasHeaderTags": true,
+              "Content": [
+                [ "@tbl_parameter@", "@tbl_value@", "@tbl_unit@" ],
+                [ "Parameter", "Value", "Unit" ],
+                [ "Conductivity", "-", "yS/cm" ],
+                [ "Lead", "0.001", "mg/kg DM" ],
+                [ "Sieving", "-", "-" ],
+                [ "Arsenic", "< 0.04", "mg/kg DM" ],
+                [ "Sum BTEX", "-", "mg/l" ],
+                [ "Arsen", "10.6", "mg/l" ],
+                [ "Lead", "40", "mg/l" ],
+                [ "Weighin", "5", "g" ],
+                [ "Benzene", "-", "mg/l" ],
+                [ "Toluene", "-", "mg/l" ],
+                [ "o-xylene", "-", "mg/l" ],
+                [ "m,p-xylene", "-", "mg/l" ],
+                [ "Dry matter", "80", "%" ],
+                [ "Ethylbenzene", "-", "mg/l" ],
+                [ "Weighin", "13", "g" ],
+                [ "Weighin", "9", "g" ],
+                [ "Weighin", "14", "g" ]
+              ]
+            }
+          }
+        },
+        {
+          "TextTags": {
+            "@sample_code@": "S00901-02",
+            "@analysis_date@": "11.03.2021",
+            "@analyst_name@": "Georg Schmidt"
+          },
+          "TableTags": {
+            "@sample_info@": {
+              "HasHeader": false,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample name", "Badeteich Hirschstetten Nordufer" ],
+                [ "Sample description", "" ],
+                [ "Sampling date", "09.03.2021" ],
+                [ "Sampling plan", "" ],
+                [ "Due date", "10.03.2021" ],
+                [ "Product reference", "Subsurface water" ],
+                [ "Storage (months)", "6" ],
+                [ "Disposed date", "" ],
+                [ "Sampling point", "" ]
+              ]
+            },
+            "@sample_parameters@": {
+              "HasHeader": true,
+              "HasHeaderTags": true,
+              "Content": [
+                [ "@tbl_parameter@", "@tbl_value@", "@tbl_unit@" ],
+                [ "Parameter", "Value", "Unit" ],
+                [ "Conductivity", "-", "yS/cm" ],
+                [ "Arsenic", "< 0.000000133", "mg/kg DM" ],
+                [ "Lead", "[0.03]", "mg/kg DM" ],
+                [ "Sum BTEX", "-", "mg/l" ],
+                [ "Arsen", "[0.03]", "mg/l" ],
+                [ "Weighin", "10", "g" ],
+                [ "Dry matter", "75", "%" ],
+                [ "Lead", "< 0.2", "mg/l" ],
+                [ "Benzene", "-", "mg/l" ],
+                [ "Toluene", "-", "mg/l" ],
+                [ "o-Xylene", "[0.05]", "mg/l" ],
+                [ "m,p-Xylene", "-", "mg/l" ],
+                [ "Ethylbenzene", "3.5", "mg/l" ],
+                [ "Weighin", "11.5", "g" ],
+                [ "Weighin", "10", "g" ],
+                [ "Weighin", "12", "g" ]
+              ]
+            }
+          }
+        },
+        {
+          "TextTags": {
+            "@sample_code@": "S00901-03",
+            "@analysis_date@": "11.03.2021",
+            "@analyst_name@": "Georg Schmidt"
+          },
+          "TableTags": {
+            "@sample_info@": {
+              "HasHeader": false,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample name", "Minarskywasser" ],
+                [ "Sample description", "" ],
+                [ "Sampling date", "07.03.2021" ],
+                [ "Sampling plan", "" ],
+                [ "Due date", "10.03.2021" ],
+                [ "Product reference", "" ],
+                [ "Storage (months)", "6" ],
+                [ "Disposed date", "" ],
+                [ "Sampling point", "" ]
+              ]
+            },
+            "@sample_parameters@": {
+              "HasHeader": true,
+              "HasHeaderTags": true,
+              "Content": [
+                [ "@tbl_parameter@", "@tbl_value@", "@tbl_unit@" ],
+                [ "Parameter", "Value", "Unit" ],
+                [ "Conductivity", "-", "yS/cm" ],
+                [ "Arsenic", "0.133", "mg/kg DM" ],
+                [ "Dry matter", "75", "%" ],
+                [ "Lead", "< 0.2", "mg/l" ],
+                [ "Benzene", "-", "mg/l" ]
+              ]
+            }
+          }
+        },
+        {
+          "TextTags": {
+            "@sample_code@": "S00901-04",
+            "@analysis_date@": "12.03.2021",
+            "@analyst_name@": "Wilhelm Haplec"
+          },
+          "TableTags": {
+            "@sample_info@": {
+              "HasHeader": false,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample name", "Badeteich Hirschstetten Südufer" ],
+                [ "Sample description", "" ],
+                [ "Sampling date", "07.03.2021" ],
+                [ "Sampling plan", "" ],
+                [ "Due date", "10.03.2021" ],
+                [ "Product reference", "Surface water" ],
+                [ "Storage (months)", "6" ],
+                [ "Disposed date", "" ],
+                [ "Sampling point", "" ]
+              ]
+            },
+            "@sample_parameters@": {
+              "HasHeader": true,
+              "HasHeaderTags": true,
+              "Content": [
+                [ "@tbl_parameter@", "@tbl_value@", "@tbl_unit@" ],
+                [ "Parameter", "Value", "Unit" ],
+                [ "Conductivity", "3.00", "yS/cm" ],
+                [ "Lead", "-", "mg/kg DM" ],
+                [ "Sieving", "-", "-" ],
+                [ "Arsenic", "-", "mg/kg DM" ],
+                [ "Sum BTEX", "-", "mg/l" ],
+                [ "Arsen", "-", "mg/l" ],
+                [ "Lead", "-", "mg/l" ],
+                [ "Weighin", "-", "g" ],
+                [ "Benzene", "-", "mg/l" ],
+                [ "Toluene", "-", "mg/l" ],
+                [ "o-xylene", "-", "mg/l" ],
+                [ "m,p-xylene", "-", "mg/l" ],
+                [ "Dry matter", "-", "%" ],
+                [ "Ethylbenzene", "-", "mg/l" ],
+                [ "Weighin", "-", "g" ],
+                [ "Weighin", "-", "g" ],
+                [ "Weighin", "-", "g" ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "StartTag": "@results_parameter_start@",
+      "EndTag": "@results_parameter_end@",
+      "Contexts": [
+        {
+          "TableTags": {
+            "@results_parameter@": {
+              "HasHeader": true,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample", "Arsenic", "Arsenic", "Benzene", "Lead", "Lead", "Weighin" ],
+                [ "", "mg/kg DM", "mg/l", "mg/l", "mg/kg DM", "mg/l", "g" ],
+                [ "S00901-01", "< 0.04", "10.6", "-", "0.001", "40", "5" ],
+                [ "S00901-02", "< 0.0000013333", "[0.03]", "-", "[0.03]", "< 0.2", "10" ],
+                [ "S00901-04", "-", "-", "-", "-", "-", "-" ]
+              ]
+            }
+          }
+        },
+        {
+          "TableTags": {
+            "@results_parameter@": {
+              "HasHeader": true,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample", "Weighin", "Weighin", "Weighin", "Ethlybenzene", "Conductivity", "Sieving" ],
+                [ "", "g ", "g", "g", "mg/l", "ys/cm", "-" ],
+                [ "S00901-01", "13", "9", "14", "-", "-", "-" ],
+                [ "S00901-02", "11.5", "10", "12", "3.5", "-", "-" ],
+                [ "S00901-04", "-", "-", "-", "-", "3.5", "-" ]
+              ]
+            }
+          }
+        },
+        {
+          "TableTags": {
+            "@results_parameter@": {
+              "HasHeader": true,
+              "HasHeaderTags": false,
+              "Content": [
+                [ "Sample", "Sum BTEX", "Toluene", "Dry matter", "m,p-Xylene", "o-Xylene" ],
+                [ "", "mg/l ", "mg/l", "%", "mg/l", "mg/l" ],
+                [ "S00901-01", "-", "-", "80", "-", "-" ],
+                [ "S00901-02", "-", "-", "75", "-", "[0.05]" ],
+                [ "S00901-04", "-", "-", "-", "-", "-" ]
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

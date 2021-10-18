@@ -1,0 +1,9 @@
+{
+  "TextTags": {
+    "@header_tag@": "Header Text",
+    "@body_tag@": "Body Text",
+    "@footer_tag@": "Footer Text",
+    "@foo_tag@": "Foo",
+    "@bar_tag@": "Bar"
+  }
+  }

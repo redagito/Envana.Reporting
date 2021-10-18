@@ -1,0 +1,29 @@
+{
+  "Templates": [
+    {
+      "StartTag": "@template_start@",
+      "EndTag": "@template_end@",
+      "Contexts": [
+        {
+          "TextTags": {
+            "@name@": "John",
+            "@data@": "123"
+          }
+        },
+        {
+          "TextTags": {
+            "@name@": "Mike",
+            "@data@": "234"
+          }
+        },
+        {
+          "TextTags": {
+            "@name@": "Paul",
+            "@data@": "Foobar"
+          }
+        }
+      ]
+    }
+  ]
+    
+}

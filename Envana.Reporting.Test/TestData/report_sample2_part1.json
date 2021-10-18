@@ -1,0 +1,37 @@
+{
+  "TextTags": {
+    "$$/BerAdressat#": "Aacurat GmbH\nGottlieb-Daimler-Straße 9\nD-73460 Hüttlingen",
+    "$$/AuCodeVers#": "2011-0003",
+    "$$/AuVersionInfo#": "",
+    "$$/AuAlleNormen#": ""
+  },
+    "TableTags":{
+        "$$/Auftragsdaten#": {
+            "HasHeader": false,
+            "HasHeaderTags": false,
+            "Content": [
+                [ "Fertigung", "" ],
+                [ "Berichtempfänger:", "Abend, Berichtadresse" ],
+                [ "Erledigung (normal, schnell):", "Mit Eilzuschlag" ],
+                [ "Endkunde für Rabattberechnung:", "Bach" ],
+                [ "Beurteilungsnorm (Auftrag):", "Beurteilungs- und Prüfnorm 0815 XYZ - mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext mit sehr langem Zusatztext 1234567890" ],
+                [ "Kilometerpauschale:", "200.00" ],
+                [ "Serial-Nr.:", "666" ],
+                [ "Fahrtzeit:", "1.50" ],
+                [ "Kommission:", "4711" ],
+                [ "Auftragsdatum:", "Di 29.09.2009  00:00" ],
+                [ "Bestellnummer Kunde:", "" ],
+                [ "Bauteilbezeichnung:", "Motorblock ABC-456 15 mm" ],
+                [ "Gesenknummer:", "4712" ],
+                [ "Zeichnungsnummer:", "4711" ],
+                [ "Werkstoff:", "1.2345 = CrMo5" ],
+                [ "Charge:", "2011/342" ],
+                [ "Wärmebehandlung:", "QT" ],
+                [ "Kunde extern:", "" ],
+                [ "Gießtag:", "" ],
+                [ "Entsorgung ab:", "" ],
+                [ "Entsorgung am:", "" ]
+            ]
+        }
+    }
+}

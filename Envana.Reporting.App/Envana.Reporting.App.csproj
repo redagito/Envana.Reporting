@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\net5.0\templates\**" />
+    <EmbeddedResource Remove="bin\Debug\net5.0\templates\**" />
+    <None Remove="bin\Debug\net5.0\templates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Envana.Reporting\Envana.Reporting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net5.0\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="table4.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="table_crash1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

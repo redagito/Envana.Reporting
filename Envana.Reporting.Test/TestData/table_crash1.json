@@ -1,0 +1,12 @@
+{
+  "TableTags": {
+    "@table@": {
+      "HasHeader": false,
+      "HasHeaderTags": false,
+      "Content": [
+        [ "Foo", "Bar", "Foobar" ],
+        [ "Foo1", "Bar1", "Foobar1" ]
+      ]
+    }
+  }
+}
